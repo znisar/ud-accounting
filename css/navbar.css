@@ -1,37 +1,57 @@
 /*Main Selectors*/
-/*headings*/
-h2, p{
-  font-family: 'palatino linotype', sans-serif;     
-  position: relative; 
-  top: 20px;  
-  
+
+/*--- Nav Bar --- */
+.navbar{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-size: medium;
+  width: 100%;
+  background-color: #B78620;
+  vertical-align: middle;
+  color: black;
+  top: 0; /* Position the navbar at the top of the page */
+  position: fixed; /* Set the navbar to fixed position */
+  overflow: auto;
+  height: 50px;
+  z-index: 10;
+  margin-left: 30px;
+  /* FLEX BOX */
+  display: flex;
+  align-items: center;
 }
 
-h2.contact-detail{
-  font-size: 1.3rem;
-  font-size: calc(10px + (25 - 10) * ((100vw - 100px) / (1600 - 100)));    
+
+
+/* NavBar: Add Hover feature */
+.navbar a {
+  
+  float: left;
+  padding: 2%;
+  font-size: 20 px;
+  text-decoration: none;
+  vertical-align: middle;
+  background: orange;
+  font-style: normal;
+  color: black;
+  width: auto;
+}
+/* Zeeshan: Add Hover feature */
+.navbar a:hover {
+  font-style: normal;
+  background: black;
+  color: white;
+  font-weight: bolder;
+  width: auto;
 }
 
 
-
-html body{
-    margin: 0;
-    padding: 0;
-    height: 100%;  
-    background-image: url(../resources/UDA\ Wallpaper.jpg);
-    background-size: cover;  
-    background-repeat: no-repeat; 
-    background-attachment: fixed;  
-    background-position: center; 
-    position: relative; 
-    text-align: center;   
-  }
+/*Navigation Link Styles*/
+.menu-link{
+  color: #7fbe44; 
+  text-decoration: none;  
+}
   
-
-  
-  /*Logo Container Styles*/
-
-
+/*Logo Container Styles*/
   .logo-link-image{
      
     width: 10%;
@@ -48,41 +68,7 @@ html body{
   }
   
 
-  
-  /* Zeeshan: fix nav bar to top */
-  .navbar{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: normal;
-    background-color: #B78620;
-    top: 0; /* Position the navbar at the top of the page */
-    position: fixed; /* Set the navbar to fixed position */
-    width: auto;
-    height: 50px;
-    z-index: 10;
-  }
 
-  /* Zeeshan: Add Hover feature */
-  .navbar a:hover {
-    font-style: italic;
-    background: #B78620;
-    color: darkgreen;
-    font-weight: bolder;
-  }
-  
-  /*Navbar Menu Item Styles (Not Including Links)*/
-  .navbar-item{
-     padding: 0.5rem 1.5rem;  
-     text-align: center; 
-     font-weight: 900; 
-    font-family: 'palatino linotype', sans-serif; 
-    font-size: 1.5rem;  
-  }
-  
-  /*Navigation Link Styles*/
-  .menu-link{
-    color: #7fbe44; 
-    text-decoration: none;  
-  }
   
   /*Styles for Menu Links*/
   .menu-link:link{
