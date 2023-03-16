@@ -1,0 +1,17 @@
+
+.container--1{
+    /* Starter */
+    font-family: sans-serif;
+    background-color: aquamarine;
+    font-size: 30px;
+    margin: 40 px;
+
+    /* CSS GRID */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 150px;
+
+    /* FLEX Box */
+   
+
+}
