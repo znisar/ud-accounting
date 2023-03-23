@@ -1,0 +1,30 @@
+/*Contact Info Section Styles*/
+#ContactInfo{
+    background-color: #2f3c23;
+    border-top: 5px solid #B78620; 
+    color: #B78620; 
+    text-align: center;        
+    position: relative; 
+    width: 100%; 
+    height: 400px; 
+    top: 1500px;
+       
+  } 
+
+  
+  .contact-link{
+    color: yellow; 
+     
+  }
+
+
+
+
+  #CopyrightInfo{
+    position: relative;  
+    margin-top: 70px;    
+    font-size: calc(12px + (18 - 12) * ((100vw - 100px) / (1600 - 100)));        
+  }
+  
+
+ 
