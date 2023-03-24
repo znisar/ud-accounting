@@ -1,0 +1,41 @@
+
+
+/*headings*/
+
+  
+  h2.feature-text{
+    font-family: 'palatino linotype', sans-serif; 
+    font-size: 2.5rem;  
+    position: relative; 
+    top: 30px;    
+    font-size: 1.7rem;
+    height: 230px;
+    padding-top: 70px;        
+    color: #B78620; 
+    background-color: #2f3c23;    
+  }
+  
+  /*Selectors for Carousel Controls*/
+  
+  
+  
+  
+  /*Slideshow Styles*/
+  #SlideshowContainer{
+    background-color: black;  
+    border: #B78620 3px solid;
+    border-radius: 20px;
+    width: 85%; 
+    height: 570px; 
+    position: relative;
+    top: 200px; 
+    margin-left: auto; 
+    margin-right: auto;      
+    text-align: center;   
+  }
+
+  
+ 
+  /*Media Queries for Responsive Design*/
+  
+  
