@@ -1,0 +1,32 @@
+h1.about-owner{
+    font-family: 'palatino linotype', sans-serif; 
+    font-size: 3.5rem;  
+    position: relative; 
+    top: 20px;     
+    height: 100px;
+    padding-bottom: 20px;        
+    color: white;     
+  }
+
+h2.about-owner{
+    font-family: 'palatino linotype', sans-serif; 
+    font-size: 2.1rem;  
+    position: relative; 
+    top: 5px;   
+    
+    padding-top: 20px;        
+    color: white;     
+  }
+
+#OwnerInfoContainer{
+    background-color: black;  
+    border: #B78620 3px solid;
+    border-radius: 20px;
+    width: 85%; 
+    height: 570px; 
+    position: relative;
+    top: 200px; 
+    margin-left: auto; 
+    margin-right: auto;      
+    text-align: center;   
+  }
