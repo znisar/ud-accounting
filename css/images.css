@@ -10,4 +10,11 @@
     height: 250px;     
   }
   
+  #ServiceImage{
+    position: absolute;  
+    top: 90px;  
+    width: 150px; 
+    height: 90px; 
+    transform: translateX(-50%);  
+  }
 

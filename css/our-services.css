@@ -1,0 +1,54 @@
+#OurServicesContainer{
+    background-color: black;  
+    border: #B78620 3px solid;
+    border-radius: 20px;
+    width: 85%; 
+    height: 570px; 
+    position: relative;
+    top: 200px; 
+    margin-left: auto; 
+    margin-right: auto;      
+    text-align: center;   
+  }
+
+  
+
+  
+  @media screen and (min-width: 900px){
+    #service-image{
+        top: 90px; 
+        width: 210px;
+        height: 130px;  
+    }
+  } 
+
+  h1.service-info{
+    position: absolute;  
+    color: white; 
+    font-family: 'palatino linotype', sans-serif;      
+    position: relative; 
+    top: 30px;      
+  }
+
+  h2.service-info{
+    color: white; 
+    font-family: 'palatino linotype', sans-serif;   
+    font-size: calc(15px + (25 - 15) * ((100vw - 100px) / (1600 - 100)));     
+    position: relative; 
+    top: 150px;   
+    text-align: left;  
+    padding-left: calc(10px + (50 - 10) * ((100vw - 100px) / (1600 - 100))); 
+    padding-right: calc(10px + (50 - 10) * ((100vw - 100px) / (1600 - 100)));  
+    line-break: auto;     
+  }
+
+  .brochure-download-link{
+    position: relative;
+    top: 300px;  
+    font-size: calc(15px + (25 - 15) * ((100vw - 100px) / (1600 - 100)));   
+    color: yellow;    
+  }
+
+  .main-service{
+    padding-top: 10px;  
+  }
