@@ -1,0 +1,22 @@
+/*Slideshow Styles*/
+#TaxTipsContainer{
+    background-color: black;  
+    border: #B78620 3px solid;
+    border-radius: 20px;
+    width: 85%; 
+    height: 970px; 
+    position: relative;
+    top: 200px; 
+    margin-left: auto; 
+    margin-right: auto;      
+    text-align: center;   
+  }
+
+  h1.tax-tips-info{
+    position: absolute;  
+    color: white; 
+    font-family: 'palatino linotype', sans-serif; 
+    font-size: calc(1.375rem + 1.5vw);       
+    position: relative; 
+    top: 30px;      
+  }
