@@ -12,11 +12,84 @@
     text-align: center;   
   }
 
+  h1, h2, h3, h4, p, table, li{
+    color: white
+  }
+  
+  #table-wrapper{
+    position: relative; 
+    top: 30px;  
+  }
+
+  table{
+    position: relative;
+    top: 0;
+    width: 95%;
+    overflow-x: auto;       
+    text-align: center; 
+    margin: auto;   
+    font-size: calc(5px + (20 - 5) * ((100vw - 100px) / (1200 - 100)));  
+    color: white;          
+  }
+
+  table, th, td{
+    border: 1px solid white;  
+    border-collapse: collapse;
+  }
+
+  .even-row{
+    background-color: #404040; 
+  }
+
+  th, td{
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    width: calc(10px + (50 - 10) * ((100vw - 100px) / (1600 - 100)));   
+  } 
+
+  td{
+    text-align: left; 
+  }
+
+  #info-wrapper{
+    position: relative; 
+    top: 30px; 
+    width: auto;
+    height: 300px; 
+    border: 1px solid white;  
+    overflow-x: hidden; 
+    overflow-y: auto;     
+  }
+  
   h1.tax-tips-info{
-    position: absolute;  
-    color: white; 
-    font-family: 'palatino linotype', sans-serif; 
-    font-size: calc(1.375rem + 1.5vw);       
     position: relative; 
     top: 30px;      
+    font-family: 'palatino linotype', sans-serif;      
+  } 
+
+  h2#table-heading, h2#tax-credits-heading{
+    position: relative;
+    font-size: calc(15px + (25 - 15) * ((100vw - 100px) / (1600 - 100))); 
+    top: 40px;  
   }
+
+  h3.tax-tips-info{
+    position: relative; 
+    text-align: left; 
+    left: 2px; 
+    font-size: calc(10px + (22 - 10) * ((100vw - 100px) / (1600 - 100)));  
+  }
+
+  p.tax-tips-info, li{
+    position: relative; 
+    text-align: left; 
+    left: 2px;
+    padding-right: 20px;    
+    font-size: calc(7px + (18 - 7) * ((100vw - 100px) / (1600 - 100)));  
+  }
+
+  
+
+  
+
+  
