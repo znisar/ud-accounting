@@ -1,0 +1,12 @@
+#WorksheetsContainer{
+    background-color: black;  
+    border: #B78620 3px solid;
+    border-radius: 20px;
+    width: 85%; 
+    height: 570px; 
+    position: relative;
+    top: 200px; 
+    margin-left: auto; 
+    margin-right: auto;      
+    text-align: center;   
+  } 
